@@ -1,0 +1,501 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 15px 101px;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo svg {
+  margin: auto 0;
+}
+
+.logo p {
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 24px;
+  font-weight: 600;
+  color: #466bf3;
+  margin: auto 8px;
+}
+
+.menu {
+  margin: auto 0;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.menu ul li .active {
+  color: #466bf3;
+}
+
+.menu ul li a:hover {
+  font-weight: 500;
+  color: #466bf3;
+}
+
+.btn {
+  background: rgba(70, 107, 243, 0.1);
+  padding: 2px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn p {
+  font-size: 16px;
+  color: #466bf3;
+}
+
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border-radius: 24px;
+  position: relative;
+}
+
+.content {
+  margin-left: 60px;
+  margin-top: 104px;
+}
+
+.content .quote {
+  font-size: 52px;
+  font-weight: 900;
+  color: #232631;
+  line-height: 78px;
+  margin-bottom: 0;
+}
+
+.content p {
+  margin-top: 2px;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.picture img {
+  /* position: absolute; */
+  /* right: 101px; */
+  justify-content: right;
+  width: 600px;
+  height: 580px;
+  border-radius: 24px;
+}
+
+.booking {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  left: 80px;
+}
+
+.types {
+  display: flex;
+  border-radius: 12px 0 0 0;
+}
+
+.flight {
+  padding: 0 25px;
+  background: #3258e8;
+  color: white;
+  border-radius: 12px 0 0 0;
+  cursor: pointer;
+}
+
+.hotel {
+  padding: 0 25px;
+  color: #3258e8;
+  cursor: pointer;
+}
+
+.select {
+  width: 1160px;
+  display: flex;
+  padding: 16px 0;
+  border-radius: 24px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.book svg {
+  margin: auto 0;
+}
+
+.desc {
+  margin: auto 16px;
+}
+
+.desc .choose {
+  margin-bottom: 0;
+}
+
+.desc .placeholder {
+  margin-top: 2px;
+  color: #848484;
+  font-size: 16px;
+}
+
+.select button {
+  display: flex;
+  margin: auto 30px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  background-color: #3258e8;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.select button svg {
+  margin-right: 10px;
+}
+
+.service {
+  background-color: #fafafa;
+  display: flex;
+  margin-top: 120px;
+  border-radius: 24px;
+  justify-content: space-around;
+}
+
+.service .title {
+  margin: auto 0;
+}
+
+.service .title p {
+  font-size: 16px;
+  color: #3258e8;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.service .title h1 {
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.part .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.row .serve {
+  display: flex;
+  margin-left: 60px;
+}
+
+.row .serve svg {
+  margin: 0 30px 0 0;
+}
+
+.row .server .desc {
+  margin: auto 0;
+}
+
+.serve .desc .main {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.serve .desc p {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.popular {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fafafa;
+  border-radius: 24px;
+  margin-top: 130px;
+  padding: 20px 0;
+}
+
+.popular .place {
+  display: flex;
+}
+
+.place .card {
+  position: relative;
+  margin: 0 30px;
+}
+
+.popular .place .card img {
+  width: 280px;
+  height: 380px;
+  border-radius: 24px;
+}
+
+.card .name {
+  position: absolute;
+  width: 100%;
+  padding-left: 24px;
+  bottom: 28px;
+  /* left: 24px; */
+}
+
+.card .name .rate {
+  margin-bottom: 0;
+}
+
+.card .name .title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.card .name .location {
+  display: flex;
+  margin: 0;
+}
+
+.name .location svg {
+  margin: auto 0;
+}
+
+.name .location p {
+  margin: auto 6px;
+  color: #ededed;
+}
+
+.popular .desc {
+  margin: auto 0;
+}
+
+.popular .desc .sub {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3258e8;
+}
+
+.popular .desc h1 {
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.popular .desc .caption {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.desc .rating {
+  display: flex;
+}
+
+.rate {
+  margin-top: 30px;
+  margin-right: 26px;
+}
+
+.rate span {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #232631;
+}
+
+.rate p {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.action {
+  display: flex;
+}
+
+.action button {
+  border: none;
+  background: #3258e8;
+  color: white;
+  padding: 14px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.action a {
+  margin: auto 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #7b7b7b;
+}
+
+.destination {
+  margin-top: 120px;
+}
+
+.destination .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.destination .title h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.destination .title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.list .row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list .row .card {
+  height: 435px;
+  /* border: 1px solid black; */
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0px 14px 25px #f2f2f2;
+}
+
+.card .thumbnail {
+  position: relative;
+}
+
+.card .thumbnail img {
+  width: 287px;
+  height: 286px;
+  border-radius: 24px;
+}
+
+.card .thumbnail .rate {
+  position: absolute;
+  padding: 4px 12px;
+  top: 0;
+  right: 0;
+  display: flex;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.thumbnail .rate svg {
+  margin: auto 0;
+}
+
+.thumbnail .rate p {
+  margin: auto 2px;
+  color: #ffffff;
+}
+
+.card .desc {
+  margin-top: 16px;
+}
+
+.card .desc .place {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.card .desc .location {
+  display: flex;
+}
+
+.desc .location svg {
+  margin: auto 0;
+}
+
+.desc .location p {
+  margin: 0 2px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.card .price {
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.card .price p {
+  color: #7b7b7b;
+}
+
+.card .price span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #232631;
+}
+
+.card .price button {
+  margin: auto 0;
+  border-radius: 12px;
+  border: none;
+  background: #3258e8;
+  color: white;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.list .view {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.list .view a {
+  padding: 14px 24px;
+  text-decoration: none;
+  color: #7b7b7b;
+  border-radius: 100px;
+  border: 1.5px solid #7b7b7b;
+}
+
+.discount {
+  margin-top: 120px;
+  width: 100%;
+  height: 435px;
+  background-image: url("./assets/illustration/island.png");
+}
